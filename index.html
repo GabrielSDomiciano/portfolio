@@ -68,28 +68,8 @@
         </article>
       </section>
       <section id="about" class="flex about_container">
-        <img
-          class="about_imagem"
-          src="./assets/img/user_01.svg"
-          alt="Foto do Perfil do Github"
-        />
-        <article id="about_texto" class="flex about_content">
-          <h1>Sobre mim</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quae, possimus cumque iste ad pariatur laborum iure tenetur eius soluta quo delectus debitis facilis. Expedita nesciunt nemo qui? Consequuntur, recusandae.
-          </p>
-          <div id="about_github" class=" github_infos">
-            <a
-              href="https://github.com/GabrielSDomiciano"
-              target="_blank"
-              class="botao"
-            >
-              Github</a
-            >
-            <p>2 eguidores</p>
-            <p>4 epositórios</p>
-          </div>
-        </article>
+    
+       
       </section>
       <section id="contact" class="contato_container">
         <article class="contato_content">
@@ -102,10 +82,11 @@
             minima quo!
           </p>
           <div id="icones_redes_sociais" class="social_container">
+            
 
             <a
             class="social_icon"
-              href="https://www.linkedin.com/in/diegorodriguesdonascimento99-ti/"
+              href="https://www.linkedin.com/in/gabriel-domiciano-34b0b7161/"
               target="_blank"
             >
               <img src="./assets/img/linkedin.svg" alt="Logo do LinkedIn" />
@@ -120,7 +101,17 @@
 
         </article>
        
-        <form action="" method="POST">
+        <form
+          action="https://formsubmit.co/f1f01df9c1cad7b94f416dd52ac315b7"
+          method="POST"
+          id="formulario"
+        >
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5500/sucess.html"
+          />
+          <input type="hidden" name="_captcha" value="false" />
           <label for="nome">Nome</label>
           <input
             id="nome"
@@ -165,5 +156,7 @@
     <footer class="flex rodapé">
       Feito com 💙 por Gabriel Santos Domiciano
     </footer>
+
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

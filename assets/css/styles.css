@@ -199,9 +199,9 @@ h4 {
 .about_container {
     flex-direction:row;
     max-width: 1120px;
-    margin: -1.25rem auto;
+    margin: 16px auto;
     padding: 0 1rem;
-    height: 100vh;
+    height: calc(100vh - 100px);
 }
 
 .about_container img {
@@ -211,17 +211,17 @@ h4 {
     border-radius: 50%;
 }
 
-.about_container h1 {
-    font-size: 2rem;
-    font-weight: bold;
+.about_content h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
     line-height: 3rem;
-    text-align: center;
+    padding-bottom: 1rem;
 }
 
-.about_container p {
+.about_content p {
 
-    margin: 1rem 0;
-    text-align: center;
+    padding: 1rem ;
+   
 }
 
 .about_content{
@@ -229,15 +229,15 @@ h4 {
 }
 
 .github_infos {
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+    width: 70%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
+  }
    
     
-}
+
 
 #about_texto {
     margin-left: 2rem;
