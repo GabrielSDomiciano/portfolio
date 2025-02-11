@@ -13,13 +13,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Projeto Portfólio" />
-    <meta name="author" content="Gabriel santos Domiciano
+    <meta name="author" content="Gabriel santos Domiciano">
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <link rel="icon" href="./assets/img/favicon.svg" />
 
     <!-- Link para a folha de Estilos CSS-->
     <link rel="stylesheet" href="./assets/css/styles.css" />
-    <title>Portfólio do Gabriel>
+    <title>Portfólio do Gabriel</title>
   </head>
   <body>
     <!-- Cabeçalho da Página -->
@@ -56,7 +56,7 @@
             officiis, qui nemo distinctio expedita ea labore eius hic!
             Consectetur excepturi aliquam dolore aperiam.
           </p>
-          <a href="gihub.com/GabrielSDomiciano="botao">
+          <a href="gihub.com/GabrielSDomiciano" class="botao">
             Explorar
           </a>
         </article>
@@ -76,8 +76,9 @@
         <article id="about_texto" class="flex about_content">
           <h1>Sobre mim</h1>
           <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quae, possimus cumque iste ad pariatur laborum iure tenetur eius soluta quo delectus debitis facilis. Expedita nesciunt nemo qui? Consequuntur, recusandae.
           </p>
-          <div id="about_github" class="github_infos">
+          <div id="about_github" class=" github_infos">
             <a
               href="https://github.com/GabrielSDomiciano"
               target="_blank"
@@ -90,25 +91,35 @@
           </div>
         </article>
       </section>
-      <section id="contact">
-        <h4>Contate-me</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officiis
-          aut delectus ducimus nisi voluptatibus animi, ex at ipsam dolor
-          tempore exercitationem earum nobis modi necessitatibus labore autem,
-          minima quo!
-        </p>
-        <div id="icones_redes_sociais">
-          <a
-            href="https://www.linkedin.com/in/diegorodriguesdonascimento99-ti/"
-            target="_blank"
-          >
-            <img src="./assets/img/linkedin.svg" alt="Logo do LinkedIn" />
-          </a>
-          <a href="https://github.com/GabrielSDomiciano="_blank">
-            <img src="./assets/img/github.svg" alt="Logo do Github" />
-          </a>
-        </div>
+      <section id="contact" class="contato_container">
+        <article class="contato_content">
+          
+          <h4>Contate-me</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officiis
+            aut delectus ducimus nisi voluptatibus animi, ex at ipsam dolor
+            tempore exercitationem earum nobis modi necessitatibus labore autem,
+            minima quo!
+          </p>
+          <div id="icones_redes_sociais" class="social_container">
+
+            <a
+            class="social_icon"
+              href="https://www.linkedin.com/in/diegorodriguesdonascimento99-ti/"
+              target="_blank"
+            >
+              <img src="./assets/img/linkedin.svg" alt="Logo do LinkedIn" />
+            </a>
+
+            <a
+            class="social_icon"
+             href="https://github.com/GabrielSDomiciano" target="_blank">
+              <img src="./assets/img/github.svg" alt="Logo do Github" />
+            </a>
+          </div>
+
+        </article>
+       
         <form action="" method="POST">
           <label for="nome">Nome</label>
           <input
@@ -145,7 +156,7 @@
           ></textarea>
           <span id="txtMensagem"></span>
 
-          <button type="submit"><a href="./sucess.html">Enviar</a></button>
+          <button class="botao" type="submit"><a href="./sucess.html">Enviar</a></button>
         </form>
       </section>
     </main>
